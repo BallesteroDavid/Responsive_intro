@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.header {
+    flex: 1;
+    background-color: rgb(93, 115, 214);
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    padding: 1em 1em;
+}
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+    padding-right: 20%;
+    font-size: large;
+    flex: 1;
+}
+
+.navBar > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    flex: 1;
+}
+
+h2 {
+    padding: 2em 1em;
+}
+
+.blocCartes {
+    display: flex;
+}
+
+.cartesFlex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.cartes {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 3em 7em;
+    border-style: outset;
+}
+
+.imgResponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2em auto;
+}
+
+.imgResponsive > div {
+    display: flex;
+    justify-content: center;
+}
+
+.daffyIMG {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.colonneFlex {
+    display: flex;
+}
+
+.coloGestion {
+    display: flex;
+    /* flex: 1; */
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+    /* margin: 0em 1em 2em 1em; */
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.colonnes {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 3em 8em;
+    border-style: outset;
+    flex: 1;
+}
+
+.footerFlex {
+
+    background-color: black;
+}
+
+.footerResponsive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1em 2em;
+    width: 100vw;
+    flex: 1;
+}
